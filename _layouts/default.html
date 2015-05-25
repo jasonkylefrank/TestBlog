@@ -9,15 +9,16 @@
 
 <header>
     <h1>Test Jekyll Blog</h1>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li><a href="{{site.baseurl}}/news.html">News</a></li>
-      </ul>
-    </nav>
+    {% include nav.html %}
 </header>
 
 {{content}}
 
+<footer>
+  {% include nav.html %}
+  <p>
+    copyright 2015 TestBlog
+  </p>
+</footer>
 </body>
 </html>
