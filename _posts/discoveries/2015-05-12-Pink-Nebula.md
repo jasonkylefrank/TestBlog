@@ -3,7 +3,7 @@ layout: news
 title: Awesome Pink Nebula!
 meta: Pink is not just for ladies!
 source: http://example.com
-category: discoveries
+categories: [discoveries, news]
 ---
 
 Nebulas are freaking awesome... especially when they are pink!

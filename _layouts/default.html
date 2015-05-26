@@ -8,19 +8,21 @@
 </head>
 
 <body>
+  <div class="page-wrap">
+    <header>
+        <h1>Test Jekyll Blog</h1>
+        {% include nav.html navclass='nav-top' %}
+    </header>
 
-<header>
-    <h1>Test Jekyll Blog</h1>
-    {% include nav.html navclass='nav-top' %}
-</header>
+    {{content}}
 
-{{content}}
-
-<footer>
-  {% include nav.html navclass='nav-bottom' %}
-  <p>
-    copyright 2015 TestBlog
-  </p>
-</footer>
+  </div>
+  
+  <footer class="site-footer">
+    {% include nav.html navclass='nav-bottom' %}
+    <p>
+      copyright 2015 TestBlog
+    </p>
+  </footer>
 </body>
 </html>
